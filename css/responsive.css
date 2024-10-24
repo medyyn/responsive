@@ -1,0 +1,351 @@
+@media (max-width: 1400px) {
+    .hero{
+        gap: 50px;
+    }
+    .hero-title{
+        font-size: 70px;
+        width: 450px;
+    }
+    .hero-title span {
+        font-size: 70px;
+    }
+    .border{
+        margin-top: 40px;
+    }
+    .hero-subtitle{
+        margin-top: 40px;
+        font-size: 18px;
+    }
+    .hero-img{
+        width: 650px;
+        margin-left: 5%;
+    }
+    .buttons > h3 {
+        font-size: 15px;
+    }
+    .hero-bottom{
+        gap: 40px;
+    }
+    .card{
+        width: 180px;
+        height: 130px;
+    }
+    .card .card-inner > h2{
+        font-size: 18px;
+    }
+}
+@media (max-width: 1200px) {
+    header{
+        padding: 26px 15px 26px 15px; 
+    }
+    svg{
+        display: none;
+    }
+    .hero{
+        margin-left: 7%;
+        gap: 30px;
+    }
+    .hero-title{
+        font-size: 50px;
+        width: 450px;
+    }
+    .hero-title span {
+        font-size: 50px;
+    }
+    .border{
+        margin-top: 35px;
+    }
+    .hero-subtitle{
+        margin-top: 35px;
+        font-size: 17px;
+    }
+    .hero-img{
+        width: 550px;
+        margin-left: 10%;
+    }
+    .buttons > h3 {
+        font-size: 14px;
+    }
+    .hero-bottom{
+        margin-left: 1%;
+        gap: 30px;
+    }
+    .card{
+        width: 170px;
+        height: 120px;
+    }
+    .card .card-inner > h2{
+        font-size: 16px;
+    }
+}
+@media (max-width: 992px) {
+    header{
+        padding: 22px 15px 22px 15px;
+        font-size: 12px;
+    }
+    nav > ul{
+        font-size: 12px;
+    }
+    button{
+        padding: 14px 20px;
+        font-size: 12px;
+    }
+    .logo{
+        width: 50px;
+    }
+    svg{
+        display: none;
+    }
+    .hero{
+        margin-left: 5%;
+        flex-direction: column;
+        gap: 60px;
+    }
+    .hero-left{
+        margin-left: 24%;
+    }
+    .hero-title{
+        font-size: 65px;
+        text-align: center;
+    }
+    .hero-title span {
+        font-size: 65px;
+    }
+    .border{
+        margin-top: 35px;
+        margin-left: 7%;
+    }
+    .hero-subtitle{
+        margin-top: 35px;
+        font-size: 17px;
+        margin-left: 7.5%;
+    }
+    .hero-img{
+        width: 510px;
+        margin-left: 21%;
+    }
+    .buttons > h3 {
+        font-size: 14px;
+    }
+    .hero-bottom{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 40px;
+        margin-top: 20px;
+        margin-left: 5%;
+    }
+    .buttons{
+        margin-left: 2%;
+    }
+    .card{
+        width: 170px;
+        height: 120px;
+    }
+    .card .card-inner > h2{
+        font-size: 16px;
+    }
+}
+@media (max-width: 768px) {
+    header{
+        padding: 22px 15px 22px 15px;
+        font-size: 12px;
+    }
+    nav > ul{
+        font-size: 12px;
+    }
+    button{
+        padding: 14px 20px;
+        font-size: 12px;
+    }
+    .logo{
+        width: 50px;
+    }
+    svg{
+        display: none;
+    }
+    .hero{
+        margin-left: 5%;
+        flex-direction: column;
+        gap: 60px;
+    }
+    .hero-left{
+        margin-left: 16%;
+    }
+    .hero-title{
+        font-size: 65px;
+        text-align: center;
+    }
+    .hero-title span {
+        font-size: 65px;
+    }
+    .border{
+        margin-top: 35px;
+        margin-left: 7%;
+    }
+    .hero-subtitle{
+        margin-top: 35px;
+        font-size: 17px;
+        margin-left: 7.5%;
+    }
+    .hero-img{
+        width: 510px;
+        margin-left: 13%;
+    }
+    .buttons > h3 {
+        font-size: 14px;
+    }
+    .hero-bottom{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 40px;
+        margin-top: 20px;
+        margin-left: 5%;
+    }
+    .buttons{
+        margin-left: 2%;
+    }
+    .card{
+        width: 170px;
+        height: 120px;
+    }
+    .card .card-inner > h2{
+        font-size: 16px;
+    }
+}
+@media (max-width: 500px) {
+    header{
+        padding: 18px 15px 18px 15px;
+        font-size: 12px;
+    }
+    nav > ul{
+        display: none;
+    }
+    .login{
+        display: none;
+    }
+    button{
+        display: none;
+    }
+    .logo{
+        width: 40px;
+    }
+    svg{
+        display: block;
+    }
+    .hero{
+        margin-left: 5%;
+        flex-direction: column;
+        gap: 60px;
+    }
+    .hero-left{
+        margin-left: -3%;
+    }
+    .hero-title{
+        font-size: 44px;
+        text-align: center;
+    }
+    .hero-title span {
+        font-size: 44px;
+    }
+    .border{
+        width: 287px;
+        margin-top: 35px;
+        margin-left: 16%;
+    }
+    .hero-subtitle{
+        margin-top: 35px;
+        font-size: 17px;
+        margin-left: 12.5%;
+    }
+    .hero-img{
+        width: 410px;
+        margin-left: 2%;
+    }
+    .buttons > h3 {
+        font-size: 14px;
+    }
+    .hero-bottom{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-left: 1%;
+    }
+    .buttons{
+        margin-left: 14%;
+    }
+    .card{
+        width: 170px;
+        height: 120px;
+    }
+    .card .card-inner > h2{
+        font-size: 16px;
+    }
+}
+@media (max-width: 360px) {
+    header{
+        padding: 16px 12px 16px 12px;
+    }
+    nav > ul{
+        display: none;
+    }
+    .login{
+        display: none;
+    }
+    button{
+        display: none;
+    }
+    .logo{
+        width: 35px;
+    }
+    svg{
+        display: block;
+    }
+    .hero{
+        margin-left: 5%;
+        flex-direction: column;
+        margin-top: 50px;
+        gap: 60px;
+    }
+    .hero-left{
+        margin-left: -3%;
+    }
+    .hero-title{
+        font-size: 27px;
+        width: 170px;
+        margin-left: 24%;
+    }
+    .hero-title span {
+        font-size: 27px;
+    }
+    .border{
+        width: 230px;
+        margin-top: 35px;
+        margin-left: 16%;
+    }
+    .hero-subtitle{
+        margin-top: 35px;
+        font-size: 14px;
+        margin-left: 12.5%;
+    }
+    .hero-img{
+        width: 322px;
+        margin-left: 2%;
+    }
+    .buttons > h3 {
+        font-size: 14px;
+    }
+    .hero-bottom{
+        display: grid;
+        grid-template-columns: auto;
+        margin-left: 16%;
+    }
+    .buttons{
+        margin-left: 5%;
+    }
+    .card{
+        width: 170px;
+        height: 120px;
+    }
+    .card .card-inner > h2{
+        font-size: 16px;
+    }
+}
